@@ -26,9 +26,9 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://n.goodideaplus.com/',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '必買精选', url: '/tag/精选' },
+  HEO_HERO_CATEGORY_2: { title: '最高折扣', url: '/tag/热门' },
+  HEO_HERO_CATEGORY_3: { title: '黑五教程', url: '/tag/教程' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -38,12 +38,12 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🔍 2024黑色星期五',
+    '🤝 2024黑五買斷軟件應用',
+    '🏃 2024黑五訂閱制軟件',
+    '🏠 2024黑五會員折扣',
+    '🤖️ 2024黑五促銷商城',
+    '🧱 2024黑五軟件指南'
   ],
 
   // 个人资料底部按钮
