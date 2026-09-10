@@ -22,6 +22,12 @@ jobs:
           node-version: '24'
           cache: yarn
 
+      - name: Normalize legacy registry URLs
+        shell: bash
+        run: |
+          sed -i 's#https://registry.yarnpkg.com/#https://registry.npmjs.org/#g' yarn.lock
+          yarn config set registry https://registry.npmjs.org
+
       - name: Install dependencies and refresh lockfile
         run: yarn install --no-progress
 
